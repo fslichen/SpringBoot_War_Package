@@ -22,7 +22,9 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<!-- You need to comment the following scope otherwise WEB-MVC will encounter a problem.
 			<scope>provided</scope>
+			 -->
 		</dependency>
 	</dependencies>
 	<build>
